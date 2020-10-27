@@ -21,7 +21,7 @@ class AddLinkCommandTest {
         String inputString = "add https://facebook.com";
         int categoryNumber = 2;
         AddLinkCommand command = new AddLinkCommand(inputString,categoryNumber);
-        command.executeCommand(ui,categories);
+        command.executeCommand(ui,categories,);
         assertEquals(1,categories.get(categoryNumber - 1).getLinks().size());
     }
 
@@ -60,8 +60,7 @@ class AddLinkCommandTest {
     }
 
 
-
-
-
-
+    @Test
+    void getCategoryNumber() {
+    }
 }

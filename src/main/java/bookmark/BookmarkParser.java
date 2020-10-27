@@ -1,6 +1,15 @@
 package bookmark;
 
-import bookmark.commands.*;
+import bookmark.commands.AddLinkCommand;
+import bookmark.commands.AddCategoryCommand;
+import bookmark.commands.BackCommand;
+import bookmark.commands.BookmarkCommand;
+import bookmark.commands.ChangeModeCommand;
+import bookmark.commands.ListCommand;
+import bookmark.commands.RemoveLinkCommand;
+import bookmark.commands.RemoveCategoryCommand;
+import bookmark.commands.StarCommand;
+
 import exceptions.InvalidCommandException;
 import studyit.CommandParser;
 import studyit.StudyItLog;

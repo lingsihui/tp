@@ -17,8 +17,8 @@ public class AddLinkCommand extends BookmarkCommand {
     public AddLinkCommand(String line, int categoryNumber) {
         this.categoryNumber = categoryNumber;
         this.line = line.trim();
-        assert line.toLowerCase().startsWith("add") : "Add link command is called when line does not start with add";
-        assert categoryNumber >= 0 : "Missing category number";
+        assert line.toLowerCase().startsWith("add") : "Add link command starts with add.";
+        assert categoryNumber >= 0 : "Category number not negative.";
     }
 
     public void executeCommand(BookmarkUi ui, ArrayList<BookmarkCategory> categories, BookmarkStorage storage) {
@@ -26,16 +26,16 @@ public class AddLinkCommand extends BookmarkCommand {
             if (categoryNumber == 0) {
                 ui.printChooseCategoryMessage();
             } else {
-                assert categoryNumber > 0 : "Category number is not chosen";
+                assert categoryNumber > 0 : "Category number not 0";
                 evaluateLink();
                 categories.get(categoryNumber - 1).addLink(link);
                 ui.showBookmarkLinkList(categories.get(categoryNumber - 1).getLinks());
                 storage.saveLinksToFile(categories);
             }
         } catch (EmptyBookmarkException e) {
-            ui.showEmptyLinkError();
+            ui.showEmptyError("link");
         } catch (InvalidBookmarkException e) {
-            ui.showInvalidLinkError();
+            ui.showInvalidError("link");
         }
     }
 

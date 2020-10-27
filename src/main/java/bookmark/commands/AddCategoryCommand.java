@@ -12,7 +12,8 @@ public class AddCategoryCommand extends BookmarkCommand {
     private int categoryNumber;
     private String  categoryToAdd;
     private String categoryName;
-    public AddCategoryCommand(String command,int categoryNumber){
+
+    public AddCategoryCommand(String command,int categoryNumber) {
         this.categoryNumber = categoryNumber;
         this.categoryToAdd = command.trim();
         assert command.toLowerCase().startsWith("cat") : "Add category command is called when line does not start with cat";
@@ -27,7 +28,7 @@ public class AddCategoryCommand extends BookmarkCommand {
             ui.showBookmarkCategoryList(categories);
             storage.saveLinksToFile(categories);
         } catch (EmptyBookmarkException e) {
-            ui.showEmptyLinkError();
+            ui.showEmptyError();
         }
     }
 
