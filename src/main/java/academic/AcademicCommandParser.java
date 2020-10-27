@@ -25,6 +25,10 @@ public class AcademicCommandParser extends CommandParser {
             return AcademicCommandType.CHECK_GRADE;
         } else if (commandModified.equalsIgnoreCase("list grade")) {
             return AcademicCommandType.LIST_GRADE;
+        } else if (commandModified.startsWith("delete contact")) {
+            return AcademicCommandType.DELETE_PERSON;
+        } else if (commandModified.startsWith("delete grade")) {
+            return AcademicCommandType.DELETE_GRADE;
         } else {
             throw new InvalidCommandException();
         }
@@ -70,6 +74,14 @@ public class AcademicCommandParser extends CommandParser {
 
         return new String[]{var1, var2, var3};
 
+    }
+
+    public static Integer parseDeletePerson(String command) {
+        return Integer.parseInt(command.substring(14).trim());
+    }
+
+    public static Integer parseDeleteGrade(String command) {
+        return Integer.parseInt(command.substring(12).trim());
     }
 
 }

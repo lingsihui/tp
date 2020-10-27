@@ -32,7 +32,7 @@ public class RemoveCategoryCommand extends BookmarkCommand {
                 line = line.substring(DELETE_LENGTH);
                 assert line.length() > 0 : "Link should not be empty";
                 catNumber = evaluateLinkNumber(categories);
-                System.out.println("Deleting Category: " + categories.get(catNumber-1).getName());
+                System.out.println("Deleting Category: " + categories.get(catNumber - 1).getName());
                 categories.remove(catNumber - 1);
                 ui.showBookmarkCategoryList(categories);
                 storage.saveLinksToFile(categories);

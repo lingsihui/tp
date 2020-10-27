@@ -32,7 +32,8 @@ public class RemoveLinkCommand extends BookmarkCommand {
                 line = line.substring(RM_LENGTH);
                 assert line.length() > 0 : "Link should not be empty";
                 linkNumber = evaluateLinkNumber(categories);
-                System.out.println("Removing link: " + categories.get(categoryNumber - 1).getLinks().get(linkNumber - 1));
+                System.out.println("Removing link: "
+                        + categories.get(categoryNumber - 1).getLinks().get(linkNumber - 1));
                 categories.get(categoryNumber - 1).removeLink(linkNumber);
                 ui.showBookmarkLinkList(categories.get(categoryNumber - 1).getLinks());
                 storage.saveLinksToFile(categories);

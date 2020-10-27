@@ -32,19 +32,19 @@ public class BookmarkStorage {
             while (s.hasNext()) {
                 String[] categories = s.nextLine().split(" , ");
                 int i = 0;
-                for(String category : categories) {
+                for (String category : categories) {
                     int x = 0;
                     String[] parseCategory = category.split(" = ");
                     String categoryName = parseCategory[0];
                     bookmarkCategories.add(new BookmarkCategory(categoryName));
-                    if (parseCategory.length < 2){
+                    if (parseCategory.length < 2) {
                         i++;
                         continue;
                     }
                     String[] links = parseCategory[1].split(" ");
                     for (String link : links) {
                         assert i >= 0 : "Problem reading file";
-                        if (link.contains("|STAR|")){
+                        if (link.contains("|STAR|")) {
                             bookmarkCategories.get(i).addLink(link.substring(6));
                             bookmarkCategories.get(i).markLinkAsStar(x);
                         } else {
@@ -60,10 +60,10 @@ public class BookmarkStorage {
             System.out.println("This file is not found, creating a new file now!");
             ArrayList<BookmarkCategory> newBookmarkCategories = new ArrayList<>();
             newBookmarkCategories.add(new BookmarkCategory("NUS"));
-            newBookmarkCategories.add(new BookmarkCategory( "Zoom"));
-            newBookmarkCategories.add(new BookmarkCategory( "Internship"));
-            newBookmarkCategories.add(new BookmarkCategory( "Hackathon"));
-            newBookmarkCategories.add(new BookmarkCategory( "Career Talk"));
+            newBookmarkCategories.add(new BookmarkCategory("Zoom"));
+            newBookmarkCategories.add(new BookmarkCategory("Internship"));
+            newBookmarkCategories.add(new BookmarkCategory("Hackathon"));
+            newBookmarkCategories.add(new BookmarkCategory("Career Talk"));
             return newBookmarkCategories;
         }
     }
@@ -71,8 +71,8 @@ public class BookmarkStorage {
     public void saveLinksToFile(ArrayList<BookmarkCategory> categories) {
         try {
             FileWriter fw = new FileWriter(filePath, false); //true append, false overwrite
-            for (BookmarkCategory category : categories){
-                fw.write(  category.getName() + " = " + getCategoryLinks(category) + " , ");
+            for (BookmarkCategory category : categories) {
+                fw.write(category.getName() + " = " + getCategoryLinks(category) + " , ");
             }
             fw.close();
         } catch (IOException e) {
@@ -83,7 +83,7 @@ public class BookmarkStorage {
     private String getCategoryLinks(BookmarkCategory category) {
         String listOfLinks = "";
         int i = 1;
-        for (BookmarkList link : category.getLinks()){
+        for (BookmarkList link : category.getLinks()) {
             if (link.getStar()) {
                 listOfLinks += "|STAR|";
             }

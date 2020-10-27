@@ -8,13 +8,13 @@ import exceptions.InvalidBookmarkException;
 
 import java.util.ArrayList;
 
-public class StarCommand extends BookmarkCommand{
+public class StarCommand extends BookmarkCommand {
     public static final int STAR_LENGTH = 4;
     private int chosenCategory;
     private String line;
     private int starLinkNumber;
 
-    public StarCommand(String line, int chosenCategory){
+    public StarCommand(String line, int chosenCategory) {
         this.line = line.trim();
         this.chosenCategory = chosenCategory;
     }
@@ -28,7 +28,7 @@ public class StarCommand extends BookmarkCommand{
             } else {
                 assert chosenCategory > 0 : "Category number is not chosen";
                 evaluateStarNumber(categories);
-                categories.get(chosenCategory - 1).markLinkAsStar(starLinkNumber-1);
+                categories.get(chosenCategory - 1).markLinkAsStar(starLinkNumber - 1);
                 ui.showBookmarkLinkList(categories.get(chosenCategory - 1).getLinks());
                 ui.showStarBookmarks(categories);
                 storage.saveLinksToFile(categories);
@@ -52,7 +52,7 @@ public class StarCommand extends BookmarkCommand{
         starLinkNumber = catNum;
     }
 
-    public int getCategoryNumber(){
+    public int getCategoryNumber() {
         return chosenCategory;
     }
 }

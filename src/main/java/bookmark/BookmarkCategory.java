@@ -26,7 +26,7 @@ public class BookmarkCategory {
         links.remove(number - 1);
     }
 
-    public void markLinkAsStar(int number){
+    public void markLinkAsStar(int number) {
         links.get(number).markLinkAsStar();
     }
 }

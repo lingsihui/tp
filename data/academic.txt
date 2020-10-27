@@ -1,5 +1,3 @@
 [P] | Prof Lim | 81234567 | E7654321@u.nus.edu
-[P] | Prof tan | 81234567 | E7654321@u.nus.edu
 [G] | CS2101 | 4 | A-
 [G] | CS2101 | 4 | A-
-[G] | CS1231 | 6 | A+

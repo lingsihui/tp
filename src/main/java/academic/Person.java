@@ -19,7 +19,4 @@ public class Person {
     }
 
 
-    public String getDetailsOfPerson() {
-        return this.nameOfPerson + "[" + this.contactNumberOfPerson + "][" + this.emailOfPerson + "]";
-    }
 }

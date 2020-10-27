@@ -13,10 +13,10 @@ public class BookmarkList {
         return link;
     }
 
-    public void markLinkAsStar(){
-        if (!this.star){
+    public void markLinkAsStar() {
+        if (!this.star) {
             this.star = true;
-        } else if (star){
+        } else if (star) {
             this.star = false;
         }
     }
@@ -25,11 +25,11 @@ public class BookmarkList {
         return (star ? "[\u2713]" : ""); //return tick symbols
     }
 
-    public String toString(){
+    public String toString() {
         return getStarIcon() + getLink();
     }
 
-    public boolean getStar( ){
+    public boolean getStar() {
         return star;
     }
 }

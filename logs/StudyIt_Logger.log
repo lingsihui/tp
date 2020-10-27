@@ -1,0 +1,412 @@
+Oct 27, 2020 3:10:51 PM studyit.StudyIt <init>
+INFO: Initializing program
+Oct 27, 2020 3:10:51 PM bookmark.BookmarkStorage loadFile
+INFO: java.io.FileNotFoundException: data/bookmark.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 3:10:51 PM bookmark.BookmarkRun <init>
+INFO: Bookmark mode initialized
+Oct 27, 2020 3:10:51 PM timetable.TimeTableRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 3:10:51 PM flashcard.FlashcardStorage readFromFile
+INFO: java.io.FileNotFoundException: data/flashcard.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 3:10:51 PM flashcard.FlashcardRun <init>
+INFO: Flashcard mode initialized
+Oct 27, 2020 3:10:51 PM academic.AcademicRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 3:10:51 PM studyit.StudyIt <init>
+INFO: Program initialized
+Oct 27, 2020 3:10:51 PM studyit.StudyIt run
+INFO: Executing program
+Oct 27, 2020 3:16:38 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 3:16:38 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 3:16:47 PM studyit.StudyIt run
+INFO: Command received: list
+Oct 27, 2020 3:16:47 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:16:47 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: list
+Oct 27, 2020 3:16:58 PM studyit.StudyIt run
+INFO: Command received: cat entertainment
+Oct 27, 2020 3:16:58 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:16:58 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: cat entertainment
+Oct 27, 2020 3:17:03 PM studyit.StudyIt run
+INFO: Command received: delete 6
+Oct 27, 2020 3:17:03 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:03 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: delete 6
+Oct 27, 2020 3:17:06 PM studyit.StudyIt run
+INFO: Command received: bm 2 
+Oct 27, 2020 3:17:06 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:06 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 2 
+Oct 27, 2020 3:17:16 PM studyit.StudyIt run
+INFO: Command received: add https://zoom.com
+Oct 27, 2020 3:17:16 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:16 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://zoom.com
+Oct 27, 2020 3:17:23 PM studyit.StudyIt run
+INFO: Command received: add huhuh
+Oct 27, 2020 3:17:23 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:23 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add huhuh
+Oct 27, 2020 3:17:26 PM studyit.StudyIt run
+INFO: Command received: add 
+Oct 27, 2020 3:17:26 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:26 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add 
+Oct 27, 2020 3:17:31 PM studyit.StudyIt run
+INFO: Command received: add https://coom
+Oct 27, 2020 3:17:31 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:31 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://coom
+Oct 27, 2020 3:17:42 PM studyit.StudyIt run
+INFO: Command received: add https://zoom. com
+Oct 27, 2020 3:17:42 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:17:42 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://zoom. com
+Oct 27, 2020 3:18:11 PM studyit.StudyIt run
+INFO: Command received: delete 2
+Oct 27, 2020 3:18:11 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:18:11 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: delete 2
+Oct 27, 2020 3:18:13 PM studyit.StudyIt run
+INFO: Command received: back 
+Oct 27, 2020 3:18:13 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:18:13 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: back 
+Oct 27, 2020 3:18:16 PM studyit.StudyIt run
+INFO: Command received: delete 2
+Oct 27, 2020 3:18:16 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:18:16 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: delete 2
+Oct 27, 2020 3:18:21 PM studyit.StudyIt run
+INFO: Command received: list
+Oct 27, 2020 3:18:21 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:18:21 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: list
+Oct 27, 2020 3:19:30 PM studyit.StudyIt run
+INFO: Command received: bm 4
+Oct 27, 2020 3:19:30 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:19:30 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 4
+Oct 27, 2020 3:19:38 PM studyit.StudyIt run
+INFO: Command received: add https://huh.com
+Oct 27, 2020 3:19:38 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:19:38 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huh.com
+Oct 27, 2020 3:19:40 PM studyit.StudyIt run
+INFO: Command received: star 1
+Oct 27, 2020 3:19:40 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:19:40 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: star 1
+Oct 27, 2020 3:20:02 PM studyit.StudyIt run
+INFO: Command received: add www.huhu.com
+Oct 27, 2020 3:20:02 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:20:02 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add www.huhu.com
+Oct 27, 2020 3:21:07 PM studyit.StudyIt run
+INFO: Command received: star 1 
+Oct 27, 2020 3:21:07 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:21:07 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: star 1 
+Oct 27, 2020 3:21:14 PM studyit.StudyIt run
+INFO: Command received: back 
+Oct 27, 2020 3:21:14 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:21:14 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: back 
+Oct 27, 2020 3:21:17 PM studyit.StudyIt run
+INFO: Command received: exit 
+Oct 27, 2020 3:21:17 PM studyit.StudyIt run
+INFO: Command type identified: EXIT_MODE
+Oct 27, 2020 3:21:56 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 3:21:56 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 3:21:59 PM studyit.StudyIt run
+INFO: Command received: hhuh
+Oct 27, 2020 3:21:59 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:21:59 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: hhuh
+Oct 27, 2020 3:21:59 PM bookmark.BookmarkParser evaluateInput
+INFO: Cannot understand bookmark command
+Oct 27, 2020 3:21:59 PM bookmark.BookmarkRun run
+WARNING: Invalid bookmark command: Command unidentifiable
+Oct 27, 2020 3:22:01 PM studyit.StudyIt run
+INFO: Command received: 10000
+Oct 27, 2020 3:22:01 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:22:01 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: 10000
+Oct 27, 2020 3:22:01 PM bookmark.BookmarkParser evaluateInput
+INFO: Cannot understand bookmark command
+Oct 27, 2020 3:22:01 PM bookmark.BookmarkRun run
+WARNING: Invalid bookmark command: Command unidentifiable
+Oct 27, 2020 3:22:04 PM studyit.StudyIt run
+INFO: Command received: bm 2
+Oct 27, 2020 3:22:04 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:22:04 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 2
+Oct 27, 2020 3:22:08 PM studyit.StudyIt run
+INFO: Command received: 828928e
+Oct 27, 2020 3:22:08 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 3:22:08 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: 828928e
+Oct 27, 2020 3:22:08 PM bookmark.BookmarkParser evaluateInput
+INFO: Cannot understand bookmark command
+Oct 27, 2020 3:22:08 PM bookmark.BookmarkRun run
+WARNING: Invalid bookmark command: Command unidentifiable
+Oct 27, 2020 4:09:54 PM studyit.StudyIt <init>
+INFO: Initializing program
+Oct 27, 2020 4:09:54 PM bookmark.BookmarkRun <init>
+INFO: Bookmark mode initialized
+Oct 27, 2020 4:09:54 PM timetable.TimeTableRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 4:09:54 PM flashcard.FlashcardStorage readFromFile
+INFO: java.io.FileNotFoundException: data/flashcard.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 4:09:54 PM flashcard.FlashcardRun <init>
+INFO: Flashcard mode initialized
+Oct 27, 2020 4:09:54 PM academic.AcademicRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 4:09:54 PM studyit.StudyIt <init>
+INFO: Program initialized
+Oct 27, 2020 4:09:54 PM studyit.StudyIt run
+INFO: Executing program
+Oct 27, 2020 4:09:58 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 4:09:58 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 4:10:01 PM studyit.StudyIt run
+INFO: Command received: list 
+Oct 27, 2020 4:10:01 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:10:01 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: list 
+Oct 27, 2020 4:10:09 PM studyit.StudyIt run
+INFO: Command received: bm 1 
+Oct 27, 2020 4:10:09 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:10:09 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 1 
+Oct 27, 2020 4:10:23 PM studyit.StudyIt run
+INFO: Command received: add https://huhuhuh.com t->hihih
+Oct 27, 2020 4:10:23 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:10:23 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhuhuh.com t->hihih
+Oct 27, 2020 4:10:40 PM studyit.StudyIt run
+INFO: Command received: add https://huhuhuh.com t-> hihih
+Oct 27, 2020 4:10:40 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:10:40 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhuhuh.com t-> hihih
+Oct 27, 2020 4:12:11 PM studyit.StudyIt <init>
+INFO: Initializing program
+Oct 27, 2020 4:12:11 PM bookmark.BookmarkRun <init>
+INFO: Bookmark mode initialized
+Oct 27, 2020 4:12:11 PM timetable.TimeTableRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 4:12:11 PM flashcard.FlashcardStorage readFromFile
+INFO: java.io.FileNotFoundException: data/flashcard.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 4:12:11 PM flashcard.FlashcardRun <init>
+INFO: Flashcard mode initialized
+Oct 27, 2020 4:12:11 PM academic.AcademicRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 4:12:11 PM studyit.StudyIt <init>
+INFO: Program initialized
+Oct 27, 2020 4:12:11 PM studyit.StudyIt run
+INFO: Executing program
+Oct 27, 2020 4:12:14 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 4:12:14 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 4:12:17 PM studyit.StudyIt run
+INFO: Command received: bm 1
+Oct 27, 2020 4:12:17 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:12:17 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 1
+Oct 27, 2020 4:12:33 PM studyit.StudyIt run
+INFO: Command received: add https://huhuh/com t-> picnic
+Oct 27, 2020 4:12:33 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:12:33 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhuh/com t-> picnic
+Oct 27, 2020 4:14:19 PM studyit.StudyIt <init>
+INFO: Initializing program
+Oct 27, 2020 4:14:19 PM bookmark.BookmarkRun <init>
+INFO: Bookmark mode initialized
+Oct 27, 2020 4:14:19 PM timetable.TimeTableRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 4:14:19 PM flashcard.FlashcardStorage readFromFile
+INFO: java.io.FileNotFoundException: data/flashcard.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 4:14:19 PM flashcard.FlashcardRun <init>
+INFO: Flashcard mode initialized
+Oct 27, 2020 4:14:19 PM academic.AcademicRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 4:14:19 PM studyit.StudyIt <init>
+INFO: Program initialized
+Oct 27, 2020 4:14:19 PM studyit.StudyIt run
+INFO: Executing program
+Oct 27, 2020 4:14:23 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 4:14:23 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 4:14:26 PM studyit.StudyIt run
+INFO: Command received: bm 1
+Oct 27, 2020 4:14:26 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:14:26 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 1
+Oct 27, 2020 4:14:37 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com t-> huhu
+Oct 27, 2020 4:14:37 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:14:37 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com t-> huhu
+Oct 27, 2020 4:14:46 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com t->
+Oct 27, 2020 4:14:46 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:14:46 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com t->
+Oct 27, 2020 4:14:50 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com t-> 
+Oct 27, 2020 4:14:50 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:14:50 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com t-> 
+Oct 27, 2020 4:14:55 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com t->     
+Oct 27, 2020 4:14:55 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:14:55 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com t->     
+Oct 27, 2020 4:15:01 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com t-> huhuuhu.cknv
+Oct 27, 2020 4:15:01 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:15:01 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com t-> huhuuhu.cknv
+Oct 27, 2020 4:15:11 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com 
+Oct 27, 2020 4:15:11 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:15:11 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com 
+Oct 27, 2020 4:15:17 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com
+Oct 27, 2020 4:15:17 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:15:17 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com
+Oct 27, 2020 4:15:24 PM studyit.StudyIt run
+INFO: Command received: add https://huhu.com      
+Oct 27, 2020 4:15:24 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 4:15:24 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add https://huhu.com      
+Oct 27, 2020 9:52:59 PM studyit.StudyIt <init>
+INFO: Initializing program
+Oct 27, 2020 9:52:59 PM bookmark.BookmarkRun <init>
+INFO: Bookmark mode initialized
+Oct 27, 2020 9:52:59 PM timetable.TimeTableRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 9:52:59 PM flashcard.FlashcardStorage readFromFile
+INFO: java.io.FileNotFoundException: data/flashcard.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 9:52:59 PM flashcard.FlashcardRun <init>
+INFO: Flashcard mode initialized
+Oct 27, 2020 9:52:59 PM academic.AcademicRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 9:52:59 PM studyit.StudyIt <init>
+INFO: Program initialized
+Oct 27, 2020 9:52:59 PM studyit.StudyIt run
+INFO: Executing program
+Oct 27, 2020 9:53:05 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 9:53:05 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 9:53:09 PM studyit.StudyIt run
+INFO: Command received: list
+Oct 27, 2020 9:53:09 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 9:53:09 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: list
+Oct 27, 2020 9:53:16 PM studyit.StudyIt run
+INFO: Command received: cat zoom 
+Oct 27, 2020 9:53:16 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 9:53:16 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: cat zoom 
+Oct 27, 2020 9:53:40 PM studyit.StudyIt <init>
+INFO: Initializing program
+Oct 27, 2020 9:53:40 PM bookmark.BookmarkStorage loadFile
+INFO: java.io.FileNotFoundException: data/bookmark.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 9:53:40 PM bookmark.BookmarkRun <init>
+INFO: Bookmark mode initialized
+Oct 27, 2020 9:53:40 PM timetable.TimeTableRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 9:53:40 PM flashcard.FlashcardStorage readFromFile
+INFO: java.io.FileNotFoundException: data/flashcard.txt (No such file or directory)
+flashcard storage file created
+Oct 27, 2020 9:53:40 PM flashcard.FlashcardRun <init>
+INFO: Flashcard mode initialized
+Oct 27, 2020 9:53:40 PM academic.AcademicRun <init>
+INFO: Academic mode initialized
+Oct 27, 2020 9:53:40 PM studyit.StudyIt <init>
+INFO: Program initialized
+Oct 27, 2020 9:53:40 PM studyit.StudyIt run
+INFO: Executing program
+Oct 27, 2020 9:53:45 PM studyit.StudyIt run
+INFO: Command received: cd 2
+Oct 27, 2020 9:53:45 PM studyit.StudyIt run
+INFO: Command type identified: CHANGE_MODE
+Oct 27, 2020 9:53:47 PM studyit.StudyIt run
+INFO: Command received: list
+Oct 27, 2020 9:53:47 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 9:53:47 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: list
+Oct 27, 2020 9:53:51 PM studyit.StudyIt run
+INFO: Command received: bm 1 
+Oct 27, 2020 9:53:51 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 9:53:51 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: bm 1 
+Oct 27, 2020 9:53:57 PM studyit.StudyIt run
+INFO: Command received: add httpd://zoom.com 
+Oct 27, 2020 9:53:57 PM studyit.StudyIt run
+INFO: Command type identified: UNIDENTIFIABLE
+Oct 27, 2020 9:53:57 PM studyit.Command executeBookmarkModeCommand
+INFO: Processing bookmark command: add httpd://zoom.com 
+Oct 27, 2020 9:56:09 PM studyit.StudyIt <init>
+INFO: Initializing program

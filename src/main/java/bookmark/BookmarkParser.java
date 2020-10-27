@@ -41,8 +41,8 @@ public class BookmarkParser extends CommandParser {
         } else if (commandModified.startsWith("star")) {
             return new StarCommand(command,chosenCategory);
         } else {
-                StudyItLog.logger.info("Cannot understand bookmark command");
-                throw new InvalidCommandException();
+            StudyItLog.logger.info("Cannot understand bookmark command");
+            throw new InvalidCommandException();
         }
     }
 

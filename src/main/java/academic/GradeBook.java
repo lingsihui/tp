@@ -10,6 +10,11 @@ public class GradeBook {
         currentGrades.add(new Grade(args[0],Integer.parseInt(args[1]),args[2]));
     }
 
+    public static void deleteGrade(Integer indexToBeDeleted, ArrayList<Grade> currentGrades) {
+        currentGrades.remove(indexToBeDeleted - 0);
+        //TODO: Fix remove() not recognising index
+    }
+
     public static String printCap(ArrayList<Grade> currentGrades) {
         double totalGradeScore = 0;
         int totalCredits = 0;

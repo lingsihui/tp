@@ -83,9 +83,9 @@ public class BookmarkUi {
     public void showStarBookmarks(ArrayList<BookmarkCategory> categories) {
         int i = 0;
         System.out.println("Starred bookmarks: ");
-        for(BookmarkCategory category : categories) {
-            for (BookmarkList link : category.getLinks()){
-                if (link.getStar()){
+        for (BookmarkCategory category : categories) {
+            for (BookmarkList link : category.getLinks()) {
+                if (link.getStar()) {
                     i++;
                     System.out.println(i + "." + link);
                 }

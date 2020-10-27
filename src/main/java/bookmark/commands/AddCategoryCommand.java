@@ -16,11 +16,12 @@ public class AddCategoryCommand extends BookmarkCommand {
     public AddCategoryCommand(String command,int categoryNumber) {
         this.categoryNumber = categoryNumber;
         this.categoryToAdd = command.trim();
-        assert command.toLowerCase().startsWith("cat") : "Add category command is called when line does not start with cat";
+        assert command.toLowerCase().startsWith("cat") : "Add category command is "
+                + "called when line does not start with cat";
         assert categoryNumber >= 0 : "Missing category number";
     }
 
-    public void executeCommand(BookmarkUi ui, ArrayList<BookmarkCategory> categories, BookmarkStorage storage){
+    public void executeCommand(BookmarkUi ui, ArrayList<BookmarkCategory> categories, BookmarkStorage storage) {
         try {
             evaluateCategory();
             categories.add(new BookmarkCategory(categoryName));
@@ -40,8 +41,7 @@ public class AddCategoryCommand extends BookmarkCommand {
         categoryName = categoryToAdd.substring(CAT_LENGTH).trim();
     }
 
-
-    public int getCategoryNumber(){
+    public int getCategoryNumber() {
         return categoryNumber;
     }
 }

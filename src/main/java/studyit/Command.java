@@ -92,24 +92,29 @@ public class Command {
             AcademicCommandType commandType = AcademicCommandParser.getAcademicCommandType(command);
 
             if (commandType == AcademicCommandType.ADD_CONTACT) {
-                Ui.printLine("Adding Contact"); //TODO: Remove placeholder line.
+                Ui.printLine("Adding Contact");
                 PersonBook.addPerson(AcademicCommandParser.getContact(command), listOfPerson);
 
             } else if (commandType == AcademicCommandType.CHECK_CONTACT) {
-                Ui.printLine("Checking Contact"); //TODO: Remove placeholder line.
                 Ui.printLine(PersonBook.printPersonBook(listOfPerson));
 
             } else if (commandType == AcademicCommandType.ADD_GRADE) {
-                Ui.printLine("Adding Grade"); //TODO: Remove placeholder line.
+                Ui.printLine("Adding Grade");
                 GradeBook.addGrade(AcademicCommandParser.getGrade(command), currentGrades);
 
             } else if (commandType == AcademicCommandType.CHECK_GRADE) {
-                Ui.printLine("Checking Grade"); //TODO: Remove placeholder line.
                 Ui.printLine(GradeBook.printCap(currentGrades));
 
             } else if (commandType == AcademicCommandType.LIST_GRADE) {
-                Ui.printLine("Listing Grade"); //TODO: Remove placeholder line.
                 Ui.printLine(GradeBook.printListOfGrades(currentGrades));
+
+            } else if (commandType == AcademicCommandType.DELETE_PERSON) {
+                Ui.printLine("Deleting contact");
+                PersonBook.deletePerson(AcademicCommandParser.parseDeletePerson(command),listOfPerson);
+
+            } else if (commandType == AcademicCommandType.DELETE_GRADE) {
+                Ui.printLine("Deleting grade");
+                GradeBook.deleteGrade(AcademicCommandParser.parseDeleteGrade(command),currentGrades);
 
             } else {
                 StudyItLog.logger.severe("Invalid command type, check studyit.Command Parser");
